@@ -6,7 +6,7 @@ try:
 	import matplotlib
 
 except:
-	os.system("python3 -m pip install pillow pyautogui, matplotlib")
+	os.system("python3 -m pip install pillow pyautogui matplotlib")
 
 from PIL import Image
 import pyautogui
@@ -20,7 +20,7 @@ argv = sys.argv
 
 pyautogui.MINIMUM_DURATION = 0
 
-VERSION = "Skin Transferer 1.0 released on 1/25/2025"
+VERSION = "Skin Transferer 1.0 released on 4/5/2025"
 DELAY = 0.0
 STARTING_DELAY = 2.5
 
